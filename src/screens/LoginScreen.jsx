@@ -13,7 +13,6 @@ const LoginScreen = ({navigation}) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    console.log('Login realizado com:', email, password);
     // lógica de autenticação...
   };
 
